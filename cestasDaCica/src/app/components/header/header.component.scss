@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 2.4rem 3.6rem;
+}
+
+.logo-container img {
+  height: 5.2rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.header-container .place-container {
+  background-color: var(--pink);
+  padding: 1rem 1.2rem;
+  border-radius: 0.6rem;
+  height: 3.8rem;
+}
+
+.header-container .place-container img{
+  background-color: transparent;
+  padding-right: 0.4rem;
+}
+
+.header-container .text-place-container {
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: transparent;
+  color: var(--dark-brown);
+}
+
+.header-container .img-car-container {
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: .8rem;
+}
+
+.header-container .img-car-container img {
+  margin-top: 1.0rem;
+  height: 2.2rem;
+}
